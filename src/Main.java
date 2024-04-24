@@ -8,7 +8,7 @@ public class Main {
         int addMoney = 1500;
         ;
         int bonus;
-        if (addMoney >= 1000) {
+        if (addMoney > 1000) {
             bonus = addMoney / bonusVolue;;
         } else {
             bonus = 0;;
